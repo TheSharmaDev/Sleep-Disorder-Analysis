@@ -51,7 +51,7 @@ Model performance was evaluated using:
 | Random Forest      | 89.38%      | 0.89     |   0.89         |  0.89        |  0.81        |
 | Decision Tree      | 90.27%      | 0.9      |   0.9          |  0.9         |  0.82        |
 
-*(Update these with your actual values)*
+
 
 ## 🛠️ Libraries Used
 
