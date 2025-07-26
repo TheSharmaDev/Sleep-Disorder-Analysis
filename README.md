@@ -35,21 +35,21 @@ Given lifestyle and health-related inputs, the task is to classify whether a per
 - Logistic Regression
 - Decision Tree Classifier
 - Random Forest Classifier
-- Support Vector Machine (SVM)
+  
 
 Model performance was evaluated using:
 - Accuracy
-- Precision, Recall, F1-score
+- Precision, Recall, F1-score, Jaccard Score
 - Confusion Matrix
-- ROC-AUC (if applied)
+  
 
 ## 🔍 Evaluation Summary
 
-| Model               | Accuracy | F1-Score |
-|--------------------|----------|----------|
-| Logistic Regression| 85%      | 0.84     |
-| Random Forest      | 91%      | 0.89     |
-| SVM                | 88%      | 0.86     |
+| Model              | Accuracy    | F1-Score | Precison Score | Recall Score |Jaccard Score |
+|--------------------|-------------|----------|----------------|--------------|--------------|
+| Logistic Regression| 67.26%      | 0.67     |   0.67         |  0.67        |  0.51        |
+| Random Forest      | 89.38%      | 0.89     |   0.89         |  0.89        |  0.81        |
+| Decision Tree      | 90.27%      | 0.9      |   0.9          |  0.9         |  0.82        |
 
 *(Update these with your actual values)*
 
@@ -75,4 +75,4 @@ Model performance was evaluated using:
 
 Rohit Sharma  
 Feel free to connect or give feedback.
-"""
+
